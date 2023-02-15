@@ -13,14 +13,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/yulilong/my_blog.git"
+        "url": "git+https://github.com/Ming-ux/my_book.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/yulilong/my_blog/issues"
+        "url": "https://github.com/Ming-ux/my_book/issues"
     },
-    "homepage": "https://github.com/yulilong/my_blog#readme",
+    "homepage": "https://github.com/Ming-ux/my_book#readme",
     "dependencies": {
         "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
         "gitbook-plugin-back-to-top-button": "^0.1.4",
