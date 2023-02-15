@@ -27,8 +27,8 @@
             "showGoTop": false
         },
         "favicon-absolute":{
-            "favicon": "/favicon2.ico",
-            "bookmark": "/favicon2.ico",
+            "favicon": "/favicon.ico",
+            "bookmark": "/favicon.ico",
             "appleTouchIcon152":"/favicon3.ico",
             "appleTouchIconPrecomposed152": "/favicon3.ico",
             "appleTouchIconMore":{
