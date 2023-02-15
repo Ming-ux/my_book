@@ -6,6 +6,7 @@
 #！步骤一：完成编辑后，在根目录my_book处，上传所有文件到仓库my_book的主分支master
 git init
 git add .		#添加根目录下的所有文件
+git status
 git commit -m "first commit"
 git branch -m master
 git remote add origin https://github.com/Ming-ux/my_book.git  #仓库my_book

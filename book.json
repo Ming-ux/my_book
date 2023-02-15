@@ -1,7 +1,7 @@
 {
-    "title": "我的blog",
-    "author" : "yu",
-    "description" : "我的blog",
+    "title": "MingBook",
+    "author" : "Ming",
+    "description" : "MingBook",
     "language" : "zh-hans",
     "plugins": [
         "-sharing",
