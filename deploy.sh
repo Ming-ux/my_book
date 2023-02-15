@@ -1,9 +1,38 @@
 #!/usr/bin/env sh
+-------------------------------------------------------------------------------------------
+#! github+gitbook实现主分支master编辑，分支gh-pages发布的功能
+#！教程参考：https://www.cnblogs.com/phyger/p/14035937.html
 
+#！步骤一：完成编辑后，在根目录my_book处，上传所有文件到仓库my_book的主分支master
+git init
+git add .		#添加根目录下的所有文件
+git commit -m "first commit"
+git branch -m master
+git remote add origin https://github.com/Ming-ux/my_book.git  #仓库my_book
+git push -u origin master
+
+#！步骤二：在根目录下my_book下进行gitbook编译,该过程是将上一步的md文件编译成静态html文件
+gitbook build .
+
+#！步骤三：目录切到编译成的_book文件夹，开始讲该文件传至分支gh-pages
+cd _book
+git init #！初始化
+git remote add origin https://github.com/Ming-ux/my_book.git
+git add .
+git commit -m 'second'
+git branch -m master
+git push --force --quiet "https://github.com/Ming-ux/my_book.git" master:gh-pages #！强制提交
+
+#！经过步骤三，前往仓库my_book可发现新增了gh-pages分支，进入该分支可发现仓库有index.html文件
+#！步骤四：github pages的设置
+#！点击gh-pages分支上方的settings,在左侧点击Pages，branch处选择分支和文件，点击save。上方出现pages网址
+
+author:Ming
+-------------------------------------------------------------------------------------------
 echo '开始执行命令'
 # 生成静态文件
 echo ''
-echo '执行命令：gitbook build .'
+echo '执行命令：gitbook build .gitbook编译'
 echo ''
 gitbook build .
 
