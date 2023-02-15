@@ -1,16 +1,12 @@
-# 说明
+## 说明
 
 这是我 fork 的文档，我会修改其中的内容。
 
-github地址：https://github.com/yulilong/my_blog
+github地址：https://github.com/Ming-ux/my_book
 
-github pages地址：https://yulilong.github.io/my_blog/
+github pages地址：https://ming-ux.github.io/my_book/
 
-由于有的时候github访问慢、打不开，本人又在码云上部署了同样内容：
 
-码云地址：https://gitee.com/dragon-li/my-wiki
-
-码云 pages地址：http://dragon-li.gitee.io/my-wiki/
 
 ## 1. 文章内容目录
 

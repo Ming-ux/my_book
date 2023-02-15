@@ -13,26 +13,31 @@
         "edit-link@^2.0.2",
         "tbfed-pagefooter@0.0.1",
         "lightbox@1.1.0",
-        "favicon@0.0.2",
         "splitter@0.0.8",
         "prism@2.4.0",
         "github@2.0.0",
         "anchor-navigation-ex",
         "page-treeview",
-        "back-to-top-button"
+        "back-to-top-button",
+        "favicon-absolute"
     ],
     "pluginsConfig": {
         "anchor-navigation-ex": {
             "showLevel": false,
             "showGoTop": false
         },
-        "favicon": {
-            "shortcut": "asset/img/favicon.ico",
-            "bookmark": "asset/img/favicon.ico",
-            "appleTouch": "asset/img/favicon.ico",
-            "appleTouchMore": {
-                "120x120": "asset/img/favicon.ico",
-                "180x180": "asset/img/favicon.ico"
+        "favicon-absolute":{
+            "favicon": "/favicon2.ico",
+            "bookmark": "/favicon2.ico",
+            "appleTouchIcon152":"/favicon3.ico",
+            "appleTouchIconPrecomposed152": "/favicon3.ico",
+            "appleTouchIconMore":{
+                "120x120": "/favicon3.ico",
+                "180x180": "/favicon3.ico"
+            },
+            "appleTouchIconPrecomposedMore":{
+                "120x120": "/favicon3.ico",
+                "180x180": "/favicon3.ico"
             }
         },
         "edit-link": {
@@ -57,3 +62,4 @@
         }
     }
 }
+
