@@ -38,6 +38,8 @@ github pages地址：https://yulilong.github.io/my_blog/
 
 4、终端使用`npm start`命令启动本地开发服务。
 
+4.1 本地启动时，发现报错在此文件中/usr/local/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js:287:18，问题是polyfills.js中的定义cd.apply的statFix()函数出现问题，将三行statFix()函数注释掉即可正常运行。
+
 5、在浏览器中输入`http://localhost:4000/`地址查看项目。
 
 ### 2.2 服务部署
